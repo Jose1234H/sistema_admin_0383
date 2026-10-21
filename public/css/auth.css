@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f3f4f6;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD GENERAL */
+.card {
+    width: 380px;
+    border-radius: 12px;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* ICONOS */
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+/* ADMIN */
+.admin .icon {
+    background: #5b5ce2;
+}
+
+/* ALUMNO */
+.alumno {
+    background: #e9f7ef;
+}
+
+.alumno .icon {
+    background: #16a34a;
+}
+
+/* TEXTOS */
+h2 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+
+/* INPUTS */
+.input-group {
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* BOTONES */
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-admin {
+    background: linear-gradient(to right, #5b5ce2, #5b5ce2);
+}
+
+.btn-alumno {
+    background: #16a34a;
+}
+
+/* LISTA */
+.list {
+    background: #f0fdf4;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.list li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
